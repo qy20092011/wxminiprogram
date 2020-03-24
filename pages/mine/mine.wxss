@@ -1,0 +1,154 @@
+/* pages/mine/mine.wxss */
+.mineWrap {
+  width: 100%;
+  padding: 0 24rpx;
+
+  box-sizing: border-box;
+}
+.userInfo {
+  width: 100%;
+  height: 376rpx;
+
+  box-sizing: border-box;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.userInfo-top {
+  width: 100%;
+  height: 207rpx;
+
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userImage {
+  width: 166rpx;
+  height: 166rpx;
+
+  border-radius: 50%;
+  background-color: #ccc; 
+}
+.userInfo-bottom {
+  width: 100%;
+  height: 120rpx;
+
+  color: #333;
+  font-size: 34rpx;
+  /* background-color:  #ccc; test color */
+
+}
+.userInfo-bottom-user {
+  width: 100%;
+  height: 60rpx;
+
+  line-height: 60rpx;
+  text-align: center;
+}
+.userInfo-bottom-grade {
+  width: 100%;
+  height: 60rpx;
+
+  line-height: 60rpx;
+  text-align: center;
+}
+.userInfo-bottom-wrap {
+  width: 140rpx;
+  height: 60rpx;
+  margin:0 auto;
+
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.userInfo-bottom-grade-left {
+  width: 40rpx;
+  height: 30rpx;
+
+  position: relative;
+}
+.userInfo-bottom-grade-left image {
+  position: absolute;
+  left: 5rpx;
+  top: 0;
+}
+.userInfo-bottom-grade-right {
+  width: 76rpx;
+  height: 30rpx;
+  text-indent: 28rpx;
+  text-align: center;
+  background-color: #ccc;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  position: relative;
+  color: #fff;
+  font-size: 20rpx;
+  line-height: 30rpx;
+  border-radius: 4rpx;
+}
+.userDes {
+  width: 100%;
+  /* height: 328rpx; */
+  padding: 76rpx 0 85rpx 0;
+
+  box-sizing: border-box;
+  /* background-color: #ccc; */
+  color: #666;
+  font-size: 30rpx;
+}
+.userDes-top {
+  width: 100%;
+  height: 122rpx;
+  padding:20rpx 0;
+  padding-left: 60rpx;
+
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #f0f0f0;
+
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  position: relative;
+}
+.userDes-bottom {
+  width: 100%;
+  height: 122rpx;
+
+  padding:20rpx 0 20rpx 60rpx;
+
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #f0f0f0;
+
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  position: relative;
+}
+.userDes-img {
+  width: 56rpx;
+  height: 56rpx;
+  margin-right: 28rpx;
+
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+}
+.ltImage {
+  width: 30rpx;
+  height: 56rpx;
+
+  position: absolute;
+  right: 56rpx;
+  top: 35rpx;
+
+  /* userInfo-bottom-grade */
+}
+
+

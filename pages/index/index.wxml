@@ -1,0 +1,9 @@
+<view class='container'>
+	<swiper class='index_swiper' indicator-dots="{{true}}" circular='{{true}}' autoplay="{{true}}" indicator-color='#fff' indicator-active-color='yellow'>
+		<block wx:for="{{bannerList}}" wx:key="*this">
+			<swiper-item>
+				<image class='img_swiper' src="{{item.image}}"></image>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+	"pages/classify/classify",
+	"pages/shopcart/shopcart",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#fff",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "土豆泥商城",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home2.png",
+        "selectedIconPath": "static/icon/home1.png"
+      },{
+		"pagePath": "pages/classify/classify",
+		"text": "分类",
+		"iconPath": "static/icon/classify2.png",
+		"selectedIconPath": "static/icon/classify1.png"
+	  },{
+		  "pagePath": "pages/shopcart/shopcart",
+		  "text": "购物车",
+		  "iconPath": "static/icon/shopcart2.png",
+		  "selectedIconPath": "static/icon/shopcart1.png"
+	  },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/icon/personal2.png",
+        "selectedIconPath": "static/icon/personal1.png"
+      }
+    ],
+    "position": "bottom",
+    "color": "#999999",
+    "selectedColor": "#ffbb39",
+    "backgroundColor": "#fff"
+  }
+}
